@@ -77,7 +77,7 @@ public class CameraActivity extends Activity implements CameraBridgeViewBase.CvC
             // input size is 300 for this model
             // We trained model on input size =320
             objectDetectorClass=new objectDetectorClass(getAssets(),"deneme2_metadata.tflite","deneme1.txt",320);
-            Log.d("MainActivity","Model is successfully loaded");
+            Log.d("MainActivity","Model is successfully loadedd");
         }
         catch (IOException e){
             Log.d("MainActivity","Getting some error");
